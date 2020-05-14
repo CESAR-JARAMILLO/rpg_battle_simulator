@@ -16,7 +16,7 @@ class Character:
     Creates a method for attacking an opponent.
     Using the random import, character attacking has a chance of missing.
     If character attacking has higher attack points than opponents defense points,
-    the difference is subtracted from opponents hp.
+    the difference is subtracted from opponents HP.
     """
     miss = random.randint(0, 6)
     if miss == 0:
