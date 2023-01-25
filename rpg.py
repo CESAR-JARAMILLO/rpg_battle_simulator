@@ -94,3 +94,5 @@ def game():
 
     if hero.hp <= 0:
       return f"{hero.name} has been defeated. Game over!"
+    
+game()
