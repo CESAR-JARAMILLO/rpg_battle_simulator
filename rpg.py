@@ -83,7 +83,8 @@ def game():
       hero.special_attack(villain)
 
     if villain.hp <= 0:
-      return f"{villain.name} has been defeated. Congratulations!"
+      print(f"{villain.name} has been defeated. Congratulations!")
+      break
 
     time.sleep(2)
 
@@ -93,6 +94,7 @@ def game():
       villain.attack(hero)
 
     if hero.hp <= 0:
-      return f"{hero.name} has been defeated. Game over!"
+      print(f"{hero.name} has been defeated. Game over!")
+      break
     
 game()
